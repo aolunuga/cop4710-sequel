@@ -1,0 +1,14 @@
+FOR i < databasesize
+  IF tablename == database[i]
+    return 1;
+  END IF
+END FOR
+return 0;
+
+
+FOR i < tablesize
+  IF fieldname == table[i]
+   return 1;
+  END IF
+END FOR
+return 0;
